@@ -2,7 +2,7 @@ import axios from "axios";
 import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL: "https://chat-app-web-rtc-backendv2.vercel.app/api",
   timeout: 1000,
 });
 
